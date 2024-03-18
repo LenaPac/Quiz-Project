@@ -21,12 +21,12 @@ finish.addEventListener("click", function() {
 
     
     if (pinkBlack==="pink" && favNumber<19){
-        quizImage.src="Draculaura1.png";
+        quizImage.src="Draculaura.png";
         console.log("Drac")
     
     }
     else if(pinkBlack==="pink"&&favNumber>86){quizImage.src="CA Cupid.png";}
-    else if(pinkBlack==="black"&&favNumber>40){quizImage.src="cleo1.png";}
+    else if(pinkBlack==="black"&&favNumber>40){quizImage.src="Cleo.png";}
      else if(pinkBlack==="black"&&favNumber>19){quizImage.src="Clawdeen.png"; 
      console.log("Clawdeen")}
      else{quizImage.src="Val.png"}
